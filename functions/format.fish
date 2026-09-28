@@ -5,10 +5,12 @@ function format --description 'Echo a styled string then reset'
 
     set opts (fish_opt --short D --long debug)
     set opts $opts (fish_opt --short h --long help)
+
     # Color options.
     set opts $opts (fish_opt --short c --long color --required-val)
     set opts $opts (fish_opt --short f --long foreground --required-val)
     set opts $opts (fish_opt --short b --long background --required-val)
+
     # Flags.
     set opts $opts (fish_opt --short d --long dim)
     set opts $opts (fish_opt --short i --long italic)
