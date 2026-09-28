@@ -1,0 +1,8 @@
+complete -c format --short b --long background --description 'Set background color, combo with -f/--foreground'
+complete -c format --short c --long color --description 'Style text in this color'
+complete -c format --short d --long dim --description 'Dim text'
+complete -c format --short f --long foreground --description 'Set foreground color'
+complete -c format --short h --long help --description 'Print help and exit'
+complete -c format --short i --long italic --description 'Italic text'
+complete -c format --short o --long bold --description 'Bold text'
+complete -c format --short u --long underline --description 'Underline text'
